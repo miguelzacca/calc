@@ -1,0 +1,17 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "Command line calc with nodejs and mathjs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Miguel Zacca",
+  "license": "MIT",
+  "dependencies": {
+    "mathjs": "^13.0.0"
+  }
+}
