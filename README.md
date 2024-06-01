@@ -6,15 +6,21 @@ Simple command line calc with Node.js and mathjs.
 
 ```bash
 git clone https://github.com/miguelzacca/calc.git
-chmod +x ~/calc/config.sh ~/calc/src/index.js
-~/calc/config.sh
+cd ~/calc
+npm ci
+chmod +x config.sh src/index.js
+config.sh
+cd ~/
 ```
 
 ## Install - Windows
 
 ```bash
 git clone https://github.com/miguelzacca/calc.git
-%HOMEPATH%/calc/config.bat
+cd %HOMEPATH%/calc
+npm ci
+config.bat
+cd %HOMEPATH%
 ```
 
 ## Use
