@@ -9,7 +9,7 @@ git clone https://github.com/miguelzacca/calc.git
 cd ~/calc
 npm ci
 chmod +x config.sh src/index.js
-config.sh
+./config.sh
 cd ~/
 ```
 
